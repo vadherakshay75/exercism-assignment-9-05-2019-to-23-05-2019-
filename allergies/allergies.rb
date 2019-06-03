@@ -1,6 +1,7 @@
 require 'byebug'
 class Allergies
   attr_accessor :allergic, :number, :array
+
   def initialize(number)
     @number = number
     @allergic = %w[eggs peanuts shellfish strawberries
